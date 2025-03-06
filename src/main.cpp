@@ -8,7 +8,7 @@
 
 // Motor Settings
 int microSecondsDelay = 500;  // Speed control
-const int maxSteps = 1000;     // Max mapped steps
+const int maxSteps = 1700;     // Max mapped steps
 int currentPosition = 0;       // Track current step position
 int lastPotValue = -1;         // Store last potentiometer value
 const int tolerance = 5;       // Hysteresis tolerance (Increase this to reduce bouncing)
